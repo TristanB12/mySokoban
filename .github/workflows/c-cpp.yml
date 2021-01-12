@@ -16,6 +16,6 @@ jobs:
     - name: make
       run: make re
     - name: launch
-      run: ./my_sokoban
+      run: ./my_sokoban maps/map1
     - name: clean
-      run: make fclean 
+      run: make fclean
